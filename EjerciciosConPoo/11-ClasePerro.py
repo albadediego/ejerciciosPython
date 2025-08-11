@@ -8,7 +8,7 @@ Pseudocódigo:
     Crear objeto Perro y llamar a ladrar()
 '''
 class Perro:
-    def __init__(self, nombre):
+    def __init__(self, nombre:str):
         self.nombre = nombre
 
     def ladrar(self):

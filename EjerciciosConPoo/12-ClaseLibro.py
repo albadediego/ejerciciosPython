@@ -8,7 +8,7 @@ Pseudocódigo:
     Crear varios libros y mostrar su info
 '''
 class Libro:
-    def __init__(self, titulo, autor):
+    def __init__(self, titulo:str, autor:str):
         self.titulo = titulo
         self.autor = autor
 
